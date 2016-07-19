@@ -1,0 +1,33 @@
+nav:not(.mm-menu) { display: none; }
+.header{ text-align: center; }
+.header {
+  box-sizing: border-box;
+  color: #c09d4c;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 40px;
+  margin: 10px 0 0;
+  padding: 0;
+  text-align: left;
+}
+
+.header.fixed{ position: fixed; top: 0; left: 0; }
+.header a {
+  color: #c09d4c;
+  float: left;
+  position: inherit;
+}
+.header a .fa {
+  float: left;
+  font-size: 24px;
+  padding: 8px 10px;
+}
+
+
+
+@media (max-width:360px) {
+	.header a .fa {
+  padding: 12px 0;
+}
+
+}
